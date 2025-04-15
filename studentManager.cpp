@@ -1,13 +1,12 @@
 #include <iostream>
 #include <vector>
-#include <stdexcept>
+#include <string>
 
 class Student {
 private:
-    std::string Name;
-    
-    std::vector<int> Marks;
+    std::vector<std::string> Name;
 
 };
+
 
 
