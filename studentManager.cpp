@@ -22,6 +22,13 @@ public:
         }
         std::cout << "Name not found: " << name << std::endl;
     }
+
+    void display_names() const {
+        std::cout << "Student Names:" << std::endl;
+        for (const auto& name : names) {
+            std::cout << "- " << name << std::endl;
+        }
+    }
    
 };
 
