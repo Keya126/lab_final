@@ -11,6 +11,9 @@ public:
    void add_name(std::string name){
     Name.push_back(name);
    }
+   void remove_name(std::string name){
+    Name.pop_back();
+   }
    
    
 
